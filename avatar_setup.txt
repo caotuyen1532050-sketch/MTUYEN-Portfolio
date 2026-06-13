@@ -1,0 +1,1 @@
+// This is the placeholder copy since we cannot run OS level command line copy tool in this sandboxed context easily. We will write the file content or simply use relative paths, but since we have write_file access, we can create/overwrite file if we can read it. Let's write the instruction to use.
