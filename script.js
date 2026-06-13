@@ -11,7 +11,7 @@ document.addEventListener('DOMContentLoaded', () => {
         htmlElement.setAttribute('data-theme', savedTheme);
         updateThemeIcon(savedTheme);
     } else {
-        const defaultTheme = systemPrefersDark ? 'dark' : 'light';
+        const defaultTheme = 'light';
         htmlElement.setAttribute('data-theme', defaultTheme);
         updateThemeIcon(defaultTheme);
     }
